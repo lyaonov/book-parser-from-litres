@@ -8,7 +8,7 @@ from transliterate import translit
 books = []
 list = []
 url = 'https://www.litres.ru/pages/rmd_search/?q=' 
-inputSearch = inputSearch = input('Введите запрос: ')
+inputSearch = input('Введите запрос: ')
 # создание строки запроса
 l = inputSearch.split()
 req = '+'.join(l) 
